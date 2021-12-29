@@ -10,7 +10,7 @@ import { MainContainer, SearchContainer, SearchBox, SearchInput, Card, CardLocat
 
 const Layout = () => {
 
-    const API_KEY = '81924ac539ce9f2ac958abaccd757027';
+    const API_KEY = process.env.REACT_APP_OPEN_WEATHER_KEY;
 
     const [cityName, setCityName] = useState('');
     const [details, setDetails] = useState('');
