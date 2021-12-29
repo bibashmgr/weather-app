@@ -1,12 +1,13 @@
 // scss
 import './App.scss';
 
+// components
+import Layout from './components/Layout';
+
 function App() {
   return (
     <>
-      <div>
-        This is Weather App.
-      </div>
+      <Layout />
     </>
   );
 }
